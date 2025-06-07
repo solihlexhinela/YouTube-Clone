@@ -1,0 +1,16 @@
+p{
+  font-family: Arial;
+}
+.num1{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.num2{
+  text-align: center;
+  margin-top: 0px;
+}
+.num3{
+  text-decoration: underline;
+}

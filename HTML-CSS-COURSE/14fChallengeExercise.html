@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge Exercise14f</title>
+    <style>
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: fixed;
+        top:0;
+        bottom: 0;
+        left: 0;
+      }
+      .images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 70px;
+        
+        background-color: rgb(32, 29, 29);
+
+      }
+      img{
+        width: 50px;
+        border-radius: 30px;
+        margin-bottom: 5px;
+      }
+      .oliver{
+        margin-top: 20px;
+      }
+      .info{
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 70px;
+
+        width: 150px;
+        padding-left: 15px;
+        background-color: rgb(41, 39, 39);
+        color: white;
+      }
+      .nest{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+
+      }
+      .p1{
+        margin-top: 0px;
+        
+      }
+      p{
+        color: rgb(90, 90, 90);
+      }
+      .head{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="images">
+        <img class="oliver" src="thumbnails/oliver.png">
+        <img class="mimi" src="thumbnails/mimi.png">
+        <img class="rex" src="thumbnails/rex.png">
+      </div>
+      <div class="info">
+        <div class="nest">
+          <p class="head">INFO</p>
+          <p class="sign">+</p>
+        </div>
+        <p class="p1"># new-videos</p>
+        <p class="p2"># updates</p>
+        <p class="p2"># faq</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Bar</title>
+    <style>
+      .flexbox{
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 50px;
+        height: 50px;
+
+        background-color: rgb(129, 81, 174);
+        opacity: 0.8;
+
+      }
+      .home{
+        width: 100px;
+        margin-top: 15px;
+        margin-left: 20px;
+        color: white;
+        font-family: arial;
+        font-weight: bold;
+      }
+      .btn-div{
+        width: 100px;
+      }
+      .search-bar{
+        flex: 1;
+      }
+      .search{
+        width: 450px;
+        margin-top: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 16px;
+        border-radius: 18px;
+        border: none;
+
+      }
+      .btnDownload{
+        margin-top: 10px;
+        background-color: rgb(129, 81, 174);
+        
+        color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="home">
+        Home
+      </div>
+      <div class="search-bar">
+        <input class="search" type="search" placeholder="Search">
+      </div>
+      <div class="btn-div">
+        <button class="btnDownload">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

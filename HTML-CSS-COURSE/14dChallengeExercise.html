@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise 14 Challenge Exercise</title>
+    <style>
+     .container{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      background-color: rgba(40, 39, 39, 0.8);
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     .sidebar{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+
+      width: 100px;
+      background-color: green;
+      color: white;
+     }
+     .modal{
+      width: 300px;
+      border: none;
+      border-radius: 8px;
+
+      background-color: white;
+
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+
+     }
+     .modal-title{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 20px;
+     }
+     .font-content{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-family: Arial;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        right-sidebar
+      </div>
+      <div class="modal">
+        <p class="modal-title">Modal Title</p>
+        <p class="modal-content">This is a modal</p>
+        <button>Close</button>
+      </div>
+    </div>
+    
+  </body>
+</html>

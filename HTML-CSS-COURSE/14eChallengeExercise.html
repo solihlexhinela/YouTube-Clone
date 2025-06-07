@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Challenge Exercise14e</title>
+    <style>
+      .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+      .image{
+        display: flex;
+        align-items: center;
+
+        position: fixed;
+        left: 30px;
+      }
+      .profile-picture{
+        width: 50px;
+        border-radius: 30px;
+        margin-right: 10px;
+      }
+      .profile-name{
+        font-weight: bold;
+        font-size: 16px;
+      }
+      .fixed{
+        position: fixed;
+        right: 30px;
+      }
+      .btnAdd{
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+        border: none;
+        border-radius: 6px;
+
+        background-color: blue;
+        color: white;
+        opacity: 0.7;
+
+
+      }
+      .btnMessage{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+
+        border: none;
+        border-radius: 6px;
+
+        background-color: lightgray;
+        
+        
+
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img class="profile-picture" src="thumbnails/oliver.png" >
+        <p class="profile-name">Oliver Cat</p>
+      </div>
+      <div class="fixed">
+        <button class="btnAdd">Add Friend</button>
+        <button class="btnMessage">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
